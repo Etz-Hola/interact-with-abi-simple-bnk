@@ -94,7 +94,7 @@ const App = () => {
         <h2>Contract Balance</h2>
         <p>{balance} ETH</p>
         <button onClick={getBalance} className='primary-btn'>Get Balance</button>
-      </div>
+      </div>  
 
       <div className='card'>
         <h2>Deposit / Withdraw</h2>
@@ -102,7 +102,7 @@ const App = () => {
           type='number'
           placeholder='Enter amount in ETH'
           className='input-field'
-          value={amount}
+          value={amount} 
           onChange={(e) => setUserAmount(e.target.value)}
         />
         <div className='button-group'>
